@@ -5,6 +5,20 @@
   outline: 0;
 }
 
+header {
+  width: 100%;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-icons i {
+  color: #fff;
+}
+
 body {
   font-family: "Sora regular", sans-serif;
   width: 100%;
