@@ -49,4 +49,24 @@ header {
   align-items: center;
   justify-content: center;
   margin-top: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .header-content {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-content i {
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+  .header-logo img {
+    width: 160px;
+    margin-top: 2.5rem;
+  }
+  .header-button {
+    display: none;
+  }
 }/*# sourceMappingURL=header.css.map */
