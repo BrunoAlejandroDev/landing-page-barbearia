@@ -37,6 +37,14 @@ header {
     transform: translateY(-6px) scale(1.1);
   }
 }
+.header-button {
+  border: 1px solid #fff;
+  padding: 8px 24px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: transparent;
+}
+
 body {
   font-family: "Sora regular", sans-serif;
   width: 100%;

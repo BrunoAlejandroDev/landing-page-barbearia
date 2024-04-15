@@ -2,8 +2,43 @@ header {
   width: 100%;
 }
 
-header .header-content {
+.header-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.header-icons {
+  display: flex;
+  gap: 14px;
+}
+
+.header-icons i {
+  color: var(--white-normal);
+}
+
+.header-icons a:hover i {
+  color: var(--red-light);
+  animation: translateY 0.8s infinite alternate;
+}
+
+@keyframes translateY {
+  from {
+    transform: translateY(0) scale(1);
+  }
+  to {
+    transform: translateY(-6px) scale(1.1);
+  }
+}
+.header-button {
+  border: 1px solid var(--white-normal);
+  padding: 8px 24px;
+  border-radius: 4px;
+  color: var(--white-normal);
+  background-color: transparent;
+}
+
+.header-button:hover {
+  border: 1px solid var(--red-light);
+  background-color: var(--red-light);
 }/*# sourceMappingURL=header.css.map */

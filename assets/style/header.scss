@@ -8,18 +8,19 @@ header {
     justify-content: space-between;
 }
 
+// Início Estilização dos Ícones
 .header-icons {
     display: flex;
     gap: 14px;
 }
 
 .header-icons i {
-    color: $white-normal;
+    color: var(--white-normal);
 }
 
 .header-icons a:hover {
     i {
-        color: $red-light;
+        color: var(--red-light);
         animation: translateY 0.8s infinite alternate;
     }
 }
@@ -32,3 +33,19 @@ header {
         transform: translateY(-6px) scale(1.1);
     }
 }
+// Fim Estilização dos ícones
+
+// Início estilização do Botão
+.header-button {
+    border: 1px solid var(--white-normal);
+    padding: 8px 24px;
+    border-radius: 4px;
+    color: var(--white-normal);
+    background-color: transparent;
+}
+
+.header-button:hover {
+    border: 1px solid var(--red-light);
+    background-color: var(--red-light);
+}
+// Fim estilização do Botão
