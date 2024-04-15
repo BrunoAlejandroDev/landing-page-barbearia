@@ -15,10 +15,28 @@ header {
   justify-content: space-between;
 }
 
+.header-icons {
+  display: flex;
+  gap: 14px;
+}
+
 .header-icons i {
   color: #fff;
 }
 
+.header-icons a:hover i {
+  color: #d34040;
+  animation: translateY 0.8s infinite alternate;
+}
+
+@keyframes translateY {
+  from {
+    transform: translateY(0) scale(1);
+  }
+  to {
+    transform: translateY(-6px) scale(1.1);
+  }
+}
 body {
   font-family: "Sora regular", sans-serif;
   width: 100%;
