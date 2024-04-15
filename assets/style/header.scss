@@ -42,6 +42,7 @@ header {
     border-radius: 4px;
     color: var(--white-normal);
     background-color: transparent;
+    transition: background-color 0.8s;
 }
 
 .header-button:hover {
@@ -49,3 +50,12 @@ header {
     background-color: var(--red-light);
 }
 // Fim estilização do Botão
+
+// Início Estilização logo
+.header-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14px;
+}
+// Fim Estilização Logo

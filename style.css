@@ -1,71 +1,10 @@
+@import "./assets/style/colors.css";
+@import "./assets/style/header.css";
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   outline: 0;
-}
-
-:root {
-  --primary-normal: #06121e;
-  --primary-dark: #040f1a;
-  --primary-light: #0c2135;
-  --secundary-normal: #090d11;
-  --secundary-dark: #06090c;
-  --secundary-light: #1a1f25;
-  --black-normal: #232224;
-  --black-dark: #161617;
-  --black-light: #353436;
-  --white-normal: #fff;
-  --white-dark: #edeaef;
-  --white-light: #fefbff;
-  --red-normal: #d94140;
-  --red-dark: #b42b2b;
-  --red-light: #d34040;
-}
-
-header {
-  width: 100%;
-}
-
-.header-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.header-icons {
-  display: flex;
-  gap: 14px;
-}
-
-.header-icons i {
-  color: var(--white-normal);
-}
-
-.header-icons a:hover i {
-  color: var(--red-light);
-  animation: translateY 0.8s infinite alternate;
-}
-
-@keyframes translateY {
-  from {
-    transform: translateY(0) scale(1);
-  }
-  to {
-    transform: translateY(-6px) scale(1.1);
-  }
-}
-.header-button {
-  border: 1px solid var(--white-normal);
-  padding: 8px 24px;
-  border-radius: 4px;
-  color: var(--white-normal);
-  background-color: transparent;
-}
-
-.header-button:hover {
-  border: 1px solid var(--red-light);
-  background-color: var(--red-light);
 }
 
 body {
