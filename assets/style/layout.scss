@@ -103,3 +103,47 @@
     }
 }
 // FIM RESPONSIVIDADE
+
+// INÍCIO SOBRE
+.about {
+    background-color: var(--primary-normal);
+    overflow: hidden;
+    color: var(--white-normal);
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding: 34px 14px 64px;
+
+    img {
+        max-width: 570px;
+    }
+
+    div {
+        flex: 1;
+    }
+}
+
+.about__description {
+    h2 {
+        font-size: 2.3rem;
+        margin-bottom: 24px;
+    }
+
+    p {
+        margin-bottom: 14px;
+        line-height: 150%;
+    }
+}
+
+// INÍCIO RESPONSIVIDADE SOBRE
+@media screen and (max-width:768px) {
+    .about-content {
+        flex-direction: column;
+    }
+}
+// FIM RESPONSIVIDADE SOBRE
+// FIM SOBRE
