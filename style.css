@@ -1,5 +1,6 @@
 @import "./assets/style/colors.css";
 @import "./assets/style/header.css";
+@import "./assets/style/layout.css";
 * {
   margin: 0;
   padding: 0;
