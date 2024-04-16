@@ -2,3 +2,8 @@
     font-family: "Sora regular";
     src: url(../font/Sora-Regular.ttf);
 }
+
+@font-face {
+    font-family: "Sora medium";
+    src: url(../font/Sora-Medium.ttf)
+}

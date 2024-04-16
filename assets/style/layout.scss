@@ -24,3 +24,54 @@
     opacity: 0.9;
 }
 // FIM BG HOME
+
+// INÍCIO HEADER MAIN
+.header__main-container {
+    color: var(--white-normal);
+    min-height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+
+    h1 {
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 150%;
+        font-size: 2.5rem;
+        max-width: 940px;
+    }
+
+    p {
+        text-align: center;
+        margin: 14px 0;
+    }
+}
+
+.main-container__button-contact {
+    padding: 14px 28px;
+    color: var(--white-normal);
+    background-color: var(--red-normal);
+    border: 0;
+    border-radius: 4px;
+    font-size: 1.125rem;
+    font-family: "Sora medium", sans-serif;
+    margin: 14px 0;
+}
+
+.main-container__button-contact:hover {
+    animation: scaleButton 0.6s infinite alternate;
+    background-color: var(--red-dark);
+}
+
+@keyframes scaleButton {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.05);
+    }
+}
+// FIM HEADER MAIN
