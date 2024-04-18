@@ -1,6 +1,7 @@
 .container {
   max-width: 1440px;
   margin: 0 auto;
+  padding: 0 8px;
 }
 
 .bg-home {
@@ -122,4 +123,13 @@
   .about-content {
     flex-direction: column;
   }
+}
+.services {
+  background-color: var(--white-normal);
+  color: var(--black-normal);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 54px 14px;
 }/*# sourceMappingURL=layout.css.map */
