@@ -233,3 +233,20 @@
     }
 }
 // FIM SERVIÇOS
+
+// INÍCIO FOOTER
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 30px 0;
+    color: var(--white-normal);
+}
+
+.footer .footer-icons {
+    display: flex;
+    gap: 10px;
+}
+// FIM FOOTER

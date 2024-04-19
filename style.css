@@ -29,4 +29,5 @@ img {
 a {
   cursor: pointer;
   text-decoration: none;
+  color: var(--white-normal);
 }/*# sourceMappingURL=style.css.map */
