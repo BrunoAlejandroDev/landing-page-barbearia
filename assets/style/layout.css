@@ -174,4 +174,29 @@
 .haircurt img:hover {
   transform: scale(1.1);
   z-index: 1;
+}
+
+.haircurt .haircurt-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px;
+  background-color: var(--white-normal);
+  z-index: 2;
+}
+
+.haircurt-info button {
+  color: var(--white-normal);
+  background-color: var(--red-normal);
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: default;
+}
+
+@media screen and (max-width: 768px) {
+  .haircurts {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=layout.css.map */
