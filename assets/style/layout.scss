@@ -267,4 +267,32 @@
         transform: scale(1.1);
     }
 }
+
+.btn-whatsapp .btn-whatsapp__txt {
+    background-color: var(--black-normal);
+    color: var(--white-normal);
+    border-radius: 6px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+
+    position: absolute;
+    width: 175px;
+    top: 25%;
+    left: -185px;
+    padding: 6px;
+
+    visibility: hidden;
+}
+
+.btn-whatsapp:hover .btn-whatsapp__txt {
+    visibility: visible;
+    opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .btn-whatsapp img {
+        max-width: 58px;
+    }
+}
 // FIM BTN WHATSAPP
